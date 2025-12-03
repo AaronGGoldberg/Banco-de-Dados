@@ -115,3 +115,5 @@ SELECT dh_coleta, tempo_min, tempo_max, precip_pluviom
 
 -- exibir as diferentes temperaturas mínimas observadas
 SELECT DISTINCT tempo_min FROM dbo.tempo;
+
+SELECT COUNT(DISTINCT tempo_min) FROM dbo.tempo;
