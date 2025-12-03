@@ -37,6 +37,21 @@ CREATE TABLE dbo.tempo (
  	CONSTRAINT dhColeta_idCidade_un UNIQUE (dh_coleta, id_cidade)
 );
 
+SELECT * from dbo.tempo;
+
+INSERT INTO dbo.tempo (tempo_min, tempo_max, precip_pluviom) VALUES
+	(1, 10, 30),
+    (3, 10, 50),
+    (2, 20, 30),
+    (5, 100, 50);
+    
+UPDATE dbo.tempo
+	set tempo_min = 10
+    WHERE tempo_max > 10 and precip_pluviom = 30;
+
+CREATE TABLE dbo.central (
+	codigo CHAR(5) NOT NULL,
+
 CREATE TABLE dbo.central (
 	codigo CHAR(5) NOT NULL,
   
