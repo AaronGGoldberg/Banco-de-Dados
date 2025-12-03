@@ -57,3 +57,19 @@ CREATE TABLE dbo.tempoCentral (
  		FOREIGN key (codigo_central) REFERENCES dbo.central(codigo)
 );
  
+-- exibindo o conteúdo da tabela
+SELECT * FROM dbo.cidade;
+
+-- inserindo cidades
+INSERT INTO dbo.cidade (nome, estado) VALUES
+	('Natal', 'RN');
+
+INSERT INTO dbo.cidade (nome, estado) VALUES
+	('Macaíba', 'RN'), ('Parnamirim', 'RN'), ('Recife', 'PE');
+
+SELECT * from dbo.localizacao;
+
+-- atribuindo localizações às cidades
+INSERT INTO dbo.localizacao (latitude, longitude, id_cidade) VALUES
+	(-5.234, 5.234, 1), (1.234, -4,56, 2), (5.89, -1.23, 3);
+
