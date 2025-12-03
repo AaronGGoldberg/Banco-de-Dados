@@ -133,4 +133,8 @@ SELECT dh_coleta as "data da coleta",
 
 SELECT precip_pluviom, dh_coleta
 	from dbo.tempo
-    WHERE precip_pluviom in (15, 30, 35);
+   WHERE precip_pluviom IN (15, 30, 35);
+
+SELECT precip_pluviom, dh_coleta
+	from dbo.tempo
+    WHERE precip_pluviom BETWEEN 15 and 30;
