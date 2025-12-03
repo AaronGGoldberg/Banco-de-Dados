@@ -71,5 +71,4 @@ SELECT * from dbo.localizacao;
 
 -- atribuindo localizações às cidades
 INSERT INTO dbo.localizacao (latitude, longitude, id_cidade) VALUES
-	(-5.234, 5.234, 1), (1.234, -4,56, 2), (5.89, -1.23, 3);
-
+	('-5.234', 5.234, 1), (1.234, -4,56, 2), (5.89, -1.23, 3);
