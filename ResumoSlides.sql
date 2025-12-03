@@ -117,3 +117,7 @@ SELECT dh_coleta, tempo_min, tempo_max, precip_pluviom
 SELECT DISTINCT tempo_min FROM dbo.tempo;
 
 SELECT COUNT(DISTINCT tempo_min) FROM dbo.tempo;
+
+SELECT dh_coleta as "data da coleta",
+		CONCAT((tempo_max - tempo_min), 'ºC') AS "variação da temperatura"
+        from dbo.tempo
