@@ -106,3 +106,6 @@ DELETE from dbo.cliente WHERE email is NULL;
 
 DELETE from dbo.cidade
 	WHERE nome like '% Machado' or nome LIKE '% Machado %';
+
+SELECT * from dbo.cliente
+	WHERE nome like '_%a'
