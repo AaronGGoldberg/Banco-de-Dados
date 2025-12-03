@@ -137,4 +137,5 @@ SELECT precip_pluviom, dh_coleta
 
 SELECT precip_pluviom, dh_coleta
 	from dbo.tempo
+   --WHERE precip_pluviom tempo_min >= 15 OR tempo_min <= 30
     WHERE precip_pluviom BETWEEN 15 and 30;
