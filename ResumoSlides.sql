@@ -99,7 +99,10 @@ SELECT * from dbo.cliente;
 
 insert into dbo.cliente (cpf, nome, email) VALUES
 	('01234567890', 'C Heusser', 'heusser@email.com'),
-    ('01234567891', 'M Machado', NULL),
+    ('01234567891', 'M Machado', 'machado@email.com'),
     ('01234567892', 'S Silva', NULL);
     
 DELETE from dbo.cliente WHERE email is NULL;
+
+DELETE from dbo.cidade
+	WHERE nome like '% Machado' or nome LIKE '% Machado %';
