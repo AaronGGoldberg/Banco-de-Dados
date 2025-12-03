@@ -72,3 +72,19 @@ SELECT * from dbo.localizacao;
 -- atribuindo localizações às cidades
 INSERT INTO dbo.localizacao (latitude, longitude, id_cidade) VALUES
 	('-5.234', 5.234, 1), (1.234, -4,56, 2), (5.89, -1.23, 3);
+
+CREATE TABLE dbo.cliente (
+ 	cpf VARCHAR(14) not NULL,
+    nome VARCHAR(150) not NULL,
+    email VARCHAR(150) NULL,
+ 	CONSTRAINT cliente_pk PRIMARY key (cpf)
+);
+
+SELECT * from dbo.cliente;
+
+insert into dbo.cliente (cpf, nome, email) VALUES
+	('01234567890', 'C Heusser', 'heusser@email.com'),
+    ('01234567891', 'M Machado', NULL),
+    ('01234567892', 'S Silva', NULL);
+    
+DELETE from dbo.cliente WHERE email is NULL;
