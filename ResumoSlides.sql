@@ -130,3 +130,7 @@ SELECT dh_coleta as "data da coleta",
 		CONCAT((tempo_max - tempo_min), 'ºC') AS "variação da temperatura"
         from dbo.tempo
         WHERE EXTRACT(day FROM dh_coleta) <> 14 and precip_pluviom > 20;
+
+SELECT precip_pluviom, dh_coleta
+	from dbo.tempo
+    WHERE precip_pluviom in (15, 30, 35);
