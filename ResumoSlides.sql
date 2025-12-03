@@ -143,4 +143,4 @@ SELECT precip_pluviom, dh_coleta
 SELECT precip_pluviom, dh_coleta::TIME as hora_coleta
 	from dbo.tempo
     WHERE precip_pluviom >= 15 OR precip_pluviom <= 30
-    ORDER by hora_coleta DESC, precip_pluviom ASc
+    ORDER by hora_coleta DESC, precip_pluviom ASC;
