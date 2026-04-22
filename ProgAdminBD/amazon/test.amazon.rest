@@ -1,0 +1,32 @@
+###
+GET https://shiny-guacamole-4j966qw9jx52qq4g-8000.app.github.dev/amazon_api/clientes/
+
+###
+
+POST https://shiny-guacamole-4j966qw9jx52qq4g-8000.app.github.dev/amazon_api/clientes/
+Content-Type: application/json
+
+{
+  "nome": "João Silva",
+  "email": "joao.silva@example.com",
+  "telefone": "11987654321"
+}
+
+###
+
+GET https://shiny-guacamole-4j966qw9jx52qq4g-8000.app.github.dev/amazon_api/clientes/1/
+
+###
+
+PUT https://shiny-guacamole-4j966qw9jx52qq4g-8000.app.github.dev/amazon_api/clientes/1/
+Content-Type: application/json
+
+{
+  "nome": "João Silva Atualizado",
+  "email": "joao.silva@example.com",
+  "telefone": "11987654322"
+}
+
+###
+
+DELETE https://shiny-guacamole-4j966qw9jx52qq4g-8000.app.github.dev/amazon_api/clientes/1/
