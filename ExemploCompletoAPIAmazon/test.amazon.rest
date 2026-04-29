@@ -1,0 +1,342 @@
+### ==============================
+### CLIENTES
+### ==============================
+
+### Listar todos os clientes
+GET http://localhost:8000/api/clientes/
+
+### Criar cliente 1
+POST http://localhost:8000/api/clientes/
+Content-Type: application/json
+
+{
+    "nome": "Carlos Silva",
+    "email": "carlos@email.com",
+    "telefone": "(84) 99123-4567"
+}
+
+### Criar cliente 2
+POST http://localhost:8000/api/clientes/
+Content-Type: application/json
+
+{
+    "nome": "Maria Souza",
+    "email": "maria@email.com",
+    "telefone": "(84) 98765-4321"
+}
+
+### Buscar cliente por ID
+GET http://localhost:8000/api/clientes/1/
+
+### Atualizar cliente (PUT - substituição completa)
+PUT http://localhost:8000/api/clientes/1/
+Content-Type: application/json
+
+{
+    "nome": "Carlos Silva Atualizado",
+    "email": "carlos.novo@email.com",
+    "telefone": "(84) 91111-2222"
+}
+
+### Atualizar cliente parcialmente (PATCH)
+PATCH http://localhost:8000/api/clientes/1/
+Content-Type: application/json
+
+{
+    "telefone": "(84) 93333-4444"
+}
+
+### Deletar cliente
+DELETE http://localhost:8000/api/clientes/2/
+
+### ==============================
+### VENDEDORES
+### ==============================
+
+### Listar todos os vendedores
+GET http://localhost:8000/api/vendedores/
+
+### Criar vendedor 1
+POST http://localhost:8000/api/vendedores/
+Content-Type: application/json
+
+{
+    "nome": "João Vendedor",
+    "email": "joao@loja.com",
+    "cpf_cnpj": "12345678901",
+    "telefone": "(11) 99999-0000",
+    "avaliacao": 4.50,
+    "ativo": true
+}
+
+### Criar vendedor 2
+POST http://localhost:8000/api/vendedores/
+Content-Type: application/json
+
+{
+    "nome": "Ana Loja",
+    "email": "ana@loja.com",
+    "cpf_cnpj": "98765432100",
+    "telefone": "(21) 98888-1111",
+    "avaliacao": 3.75,
+    "ativo": true
+}
+
+### Buscar vendedor por ID
+GET http://localhost:8000/api/vendedores/1/
+
+### Atualizar vendedor (PUT)
+PUT http://localhost:8000/api/vendedores/2/
+Content-Type: application/json
+
+{
+    "nome": "João Vendedor Premium",
+    "email": "joao@loja.com",
+    "cpf_cnpj": "12345678901",
+    "telefone": "(11) 99999-0000",
+    "avaliacao": 4.90,
+    "ativo": true
+}
+
+### Atualizar vendedor parcialmente (PATCH)
+PATCH http://localhost:8000/api/vendedores/1/
+Content-Type: application/json
+
+{
+    "avaliacao": 5.00
+}
+
+### Deletar vendedor
+DELETE http://localhost:8000/api/vendedores/1/
+
+### ==============================
+### PRODUTOS
+### ==============================
+
+### Listar todos os produtos
+GET http://localhost:8000/api/produtos/
+
+### Criar produto 1 (vinculado ao vendedor 1)
+POST http://localhost:8000/api/produtos/
+Content-Type: application/json
+
+{
+    "vendedor": 2,
+    "nome": "Notebook Gamer",
+    "preco": 5999.99,
+    "descricao": "Notebook gamer com RTX 4060, 16GB RAM, 512GB SSD"
+}
+
+### Criar produto 2 (vinculado ao vendedor 2)
+POST http://localhost:8000/api/produtos/
+Content-Type: application/json
+
+{   
+    "vendedor": 2,
+    "nome": "Mouse Wireless",
+    "preco": 149.90,
+    "descricao": "Mouse sem fio ergonômico com sensor óptico de alta precisão"
+}
+
+### Criar produto 3 (sem vendedor)
+POST http://localhost:8000/api/produtos/
+Content-Type: application/json
+
+{
+    "nome": "Teclado Mecânico",
+    "preco": 349.90,
+    "descricao": "Teclado mecânico RGB com switches blue"
+}
+
+### Buscar produto por ID
+GET http://localhost:8000/api/produtos/1/
+
+### Atualizar produto (PUT)
+PUT http://localhost:8000/api/produtos/1/
+Content-Type: application/json
+
+{
+    "vendedor": 2,
+    "nome": "Notebook Gamer Pro",
+    "preco": 6499.99,
+    "descricao": "Notebook gamer com RTX 4070, 32GB RAM, 1TB SSD"
+}
+
+### Atualizar produto parcialmente (PATCH)
+PATCH http://localhost:8000/api/produtos/2/
+Content-Type: application/json
+
+{
+    "preco": 129.90
+}
+
+### Deletar produto
+DELETE http://localhost:8000/api/produtos/3/
+
+### ==============================
+### PERFIL VENDEDORES
+### ==============================
+
+### Listar todos os perfis de vendedores
+GET http://localhost:8000/api/perfil_vendedores/
+
+### Criar perfil do vendedor 2
+POST http://localhost:8000/api/perfil_vendedores/
+Content-Type: application/json
+
+{
+    "vendedor_id": 2,
+    "razao_social": "Ana Comércio LTDA",
+    "inscricao_estadual": "123456789",
+    "banco": "Caixa",
+    "agencia": "1234",
+    "conta": "56789-0",
+    "chave_pix": "ana@loja.com"
+}
+
+### Buscar perfil do vendedor por ID
+GET http://localhost:8000/api/perfil_vendedores/2/
+
+### Atualizar perfil do vendedor (PUT)
+PUT http://localhost:8000/api/perfil_vendedores/2/
+Content-Type: application/json
+
+{
+    "vendedor_id": 2,
+    "razao_social": "João Comércio e Tecnologia LTDA",
+    "inscricao_estadual": "123456789",
+    "banco": "Nubank",
+    "agencia": "0001",
+    "conta": "98765-4",
+    "chave_pix": "12345678901"
+}
+
+### Atualizar perfil do vendedor parcialmente (PATCH)
+PATCH http://localhost:8000/api/perfil_vendedores/2/
+Content-Type: application/json
+
+{
+    "vendedor_id": 2,
+    "chave_pix": "25278246000105"
+}
+
+### Deletar perfil do vendedor
+DELETE http://localhost:8000/api/perfil_vendedores/2/
+
+### ==============================
+### PEDIDOS
+### ==============================
+
+### Listar todos os pedidos
+GET http://localhost:8000/api/pedidos/
+
+### Criar pedido (vinculado ao cliente 1)
+POST http://localhost:8000/api/pedidos/
+Content-Type: application/json
+
+{
+    "cliente": 1,
+    "status": "pendente",
+    "observacoes": "Entregar no período da manhã"
+}
+
+### Criar pedido 2 (vinculado ao cliente 1)
+POST http://localhost:8000/api/pedidos/
+Content-Type: application/json
+
+{
+    "cliente": 1,
+    "status": "pendente",
+    "observacoes": "Presente de aniversário - embalar para presente"
+}
+
+### Buscar pedido por ID
+GET http://localhost:8000/api/pedidos/1/
+
+### Atualizar pedido (PUT)
+PUT http://localhost:8000/api/pedidos/1/
+Content-Type: application/json
+
+{
+    "cliente": 1,
+    "status": "pago",
+    "observacoes": "Pagamento confirmado via PIX"
+}
+
+### Atualizar pedido parcialmente (PATCH)
+PATCH http://localhost:8000/api/pedidos/1/
+Content-Type: application/json
+
+{
+    "status": "enviado"
+}
+
+### Deletar pedido
+DELETE http://localhost:8000/api/pedidos/2/
+
+### ==============================
+### ITENS PEDIDO
+### ==============================
+
+### Listar todos os itens de pedido
+GET http://localhost:8000/api/itens_pedido/
+
+### Criar item no pedido 1 (produto 1)
+POST http://localhost:8000/api/itens_pedido/
+Content-Type: application/json
+
+{
+    "pedido": 1,
+    "produto_id": 1,
+    "quantidade": 1,
+    "preco_unitario": 5999.99
+}
+
+### Criar item no pedido 1 (produto 2)
+POST http://localhost:8000/api/itens_pedido/
+Content-Type: application/json
+
+{
+    "pedido": 1,
+    "produto_id": 2,
+    "quantidade": 2,
+    "preco_unitario": 149.90
+}
+
+### Buscar item de pedido por ID
+GET http://localhost:8000/api/itens_pedido/1/
+
+### Atualizar item de pedido (PUT)
+PUT http://localhost:8000/api/itens_pedido/1/
+Content-Type: application/json
+
+{
+    "pedido": 1,
+    "produto_id": 1,
+    "quantidade": 2,
+    "preco_unitario": 5999.99
+}
+
+### Atualizar item de pedido parcialmente (PATCH)
+PATCH http://localhost:8000/api/itens_pedido/1/
+Content-Type: application/json
+
+{
+    "quantidade": 3
+}
+
+### Deletar item de pedido
+DELETE http://localhost:8000/api/itens_pedido/2/
+
+### ==============================
+### VERIFICAÇÕES FINAIS
+### ==============================
+
+### Verificar pedido 1 com itens e total
+GET http://localhost:8000/api/pedidos/1/
+
+### Verificar lista completa de produtos
+GET http://localhost:8000/api/produtos/
+
+### Verificar lista completa de clientes
+GET http://localhost:8000/api/clientes/

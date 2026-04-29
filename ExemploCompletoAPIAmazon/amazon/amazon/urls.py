@@ -1,0 +1,34 @@
+from django.contrib import admin
+from django.urls import path, include
+from rest_framework import routers
+from backend.views import ClienteViewSet, VendedorViewSet, ProdutoViewSet, PerfilVendedorViewSet, PedidoViewSet, ItemPedidoViewSet
+from drf_yasg.views import get_schema_view
+from drf_yasg import openapi
+
+schema_view = get_schema_view(
+    openapi.Info(
+        title="Amazon API",
+        default_version='v1',
+        description="Documentação da API do Amazon",
+        terms_of_service="https://www.google.com",
+        contact=openapi.Contact(email="[EMAIL_ADDRESS]"),
+        license=openapi.License(name="MIT License"),
+    ),
+    public=True,
+)
+
+router = routers.DefaultRouter()
+router.register(r'clientes', ClienteViewSet, basename='cliente')
+router.register(r'vendedores', VendedorViewSet, basename='vendedor')
+router.register(r'produtos', ProdutoViewSet, basename='produto')
+router.register(r'perfil_vendedores', PerfilVendedorViewSet, basename='perfil_vendedor')
+router.register(r'pedidos', PedidoViewSet, basename='pedido')
+router.register(r'itens_pedido', ItemPedidoViewSet, basename='item_pedido')
+
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('api/', include(router.urls)),
+    path('docs/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
+    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
+]
