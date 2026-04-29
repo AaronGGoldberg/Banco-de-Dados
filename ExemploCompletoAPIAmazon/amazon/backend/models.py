@@ -93,7 +93,7 @@ class ItemPedido(models.Model):
         related_name='itens_pedido'
     )
     quantidade = models.PositiveIntegerField(default=1)
-    preco_unitario = models.DecimalField(max_digits=10, decimal_places=2, editable=False) # o preco unitario nao pode ser alterado
+    preco_unitario = models.DecimalField(max_digits=10, decimal_places=2) # o preco unitario nao pode ser alterado
 
 
     def __str__(self):
