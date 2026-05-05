@@ -1,12 +1,12 @@
 from rest_framework import viewsets
-from rest_framework.response import Response
-from rest_framework import status
+
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.filters import SearchFilter, OrderingFilter
 
-from .models import Cliente
-from .serializers import ClienteSerializer
+from .models import Cliente, Vendedor, Produto
+from .serializers import ClienteSerializer, VendedorSerializer, ProdutoSerializer
 
+# ViewSet para o modelo Cliente, utilizando ModelViewSet para fornecer os endpoints CRUD automaticamente.
 class ClienteViewSet(viewsets.ModelViewSet):
 
     """
@@ -20,6 +20,24 @@ class ClienteViewSet(viewsets.ModelViewSet):
     
     # Habilita filtros, busca textual e ordenação via query params
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
-    filterset_fields = ['nome', 'email'] # ?nome=Maria
-    search_fields = ['nome', 'email'] # ?search=Maria
-    ordering_fields = ['nome', 'data_cadastro'] # ?ordering=-data_cadastro
+    filterset_fields = ['nome', 'email']
+    search_fields = ['nome', 'email']
+    ordering_fields = ['nome', 'data_cadastro']
+
+# ViewSets para Vendedor e Produto seguem a mesma estrutura, adaptando os campos de filtro, busca e ordenação conforme necessário.
+class VendedorViewSet(viewsets.ModelViewSet):
+    queryset = Vendedor.objects.all()
+    serializer_class = VendedorSerializer
+    filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
+    filterset_fields = ['nome', 'email', 'cpf', 'ativo']
+    search_fields = ['nome', 'email', 'cpf']
+    ordering_fields = ['nome', 'salario', 'data_admissao']
+
+# ViewSet para o modelo Produto, com filtros específicos para categoria e disponibilidade.
+class ProdutoViewSet(viewsets.ModelViewSet):
+    queryset = Produto.objects.all()
+    serializer_class = ProdutoSerializer
+    filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
+    filterset_fields = ['categoria', 'disponivel']
+    search_fields = ['nome', 'categoria']
+    ordering_fields = ['nome', 'preco', 'estoque', 'data_criacao']
