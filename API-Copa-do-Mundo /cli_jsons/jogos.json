@@ -1,0 +1,80 @@
+[
+  {
+    "selecao_mandante": 1,
+    "selecao_visitante": 2,
+    "fase": "fase de grupos",
+    "grupo": 1,
+    "data_hora": "2026-06-11T21:00:00",
+    "estadio": "Estadio Azteca",
+    "cidade": "Cidade do México",
+    "gols_mandante": 0,
+    "gols_visitante": 0,
+    "status": "AGENDADO",
+    "eventos": []
+  },
+  {
+    "selecao_mandante": 3,
+    "selecao_visitante": 4,
+    "fase": "fase de grupos",
+    "grupo": 1,
+    "data_hora": "2026-06-14T18:00:00",
+    "estadio": "AT&T Stadium",
+    "cidade": "Arlington",
+    "gols_mandante": 0,
+    "gols_visitante": 0,
+    "status": "AGENDADO",
+    "eventos": []
+  },
+  {
+    "selecao_mandante": 1,
+    "selecao_visitante": 3,
+    "fase": "fase de grupos",
+    "grupo": 1,
+    "data_hora": "2026-06-17T21:00:00",
+    "estadio": "Estadio Akron",
+    "cidade": "Guadalajara",
+    "gols_mandante": 0,
+    "gols_visitante": 0,
+    "status": "AGENDADO",
+    "eventos": []
+  },
+  {
+    "selecao_mandante": 4,
+    "selecao_visitante": 2,
+    "fase": "fase de grupos",
+    "grupo": 1,
+    "data_hora": "2026-06-18T15:00:00",
+    "estadio": "SoFi Stadium",
+    "cidade": "Los Angeles",
+    "gols_mandante": 0,
+    "gols_visitante": 0,
+    "status": "AGENDADO",
+    "eventos": []
+  },
+  {
+    "selecao_mandante": 1,
+    "selecao_visitante": 4,
+    "fase": "fase de grupos",
+    "grupo": 1,
+    "data_hora": "2026-06-22T17:00:00",
+    "estadio": "Estadio BBVA",
+    "cidade": "Monterrey",
+    "gols_mandante": 0,
+    "gols_visitante": 0,
+    "status": "AGENDADO",
+    "eventos": []
+  },
+  {
+    "selecao_mandante": 2,
+    "selecao_visitante": 3,
+    "fase": "fase de grupos",
+    "grupo": 1,
+    "data_hora": "2026-06-22T17:00:00",
+    "estadio": "Levi's Stadium",
+    "cidade": "Santa Clara",
+    "gols_mandante": 0,
+    "gols_visitante": 0,
+    "status": "AGENDADO",
+    "eventos": []
+  }
+]

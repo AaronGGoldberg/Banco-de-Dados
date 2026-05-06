@@ -1,0 +1,1190 @@
+[
+  {
+    "nome": "Luis Ángel Malagón",
+    "nome_guerra": "Malagón",
+    "selecao": 1,
+    "posicao": "GOLEIRO",
+    "nascimento": "1997-04-03",
+    "numero_camisa": 1,
+    "suspenso": false
+  },
+  {
+    "nome": "Jorge Sánchez",
+    "nome_guerra": "Sánchez",
+    "selecao": 1,
+    "posicao": "LATERAL",
+    "nascimento": "1998-04-21",
+    "numero_camisa": 2,
+    "suspenso": false
+  },
+  {
+    "nome": "Jesús Manuel Gallardo",
+    "nome_guerra": "Gallardo",
+    "selecao": 1,
+    "posicao": "LATERAL",
+    "nascimento": "1994-08-14",
+    "numero_camisa": 3,
+    "suspenso": false
+  },
+  {
+    "nome": "César Jasib Montes",
+    "nome_guerra": "Montes",
+    "selecao": 1,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1996-03-12",
+    "numero_camisa": 4,
+    "suspenso": false
+  },
+  {
+    "nome": "Johan Vásquez",
+    "nome_guerra": "Vásquez",
+    "selecao": 1,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1999-02-14",
+    "numero_camisa": 5,
+    "suspenso": false
+  },
+  {
+    "nome": "Edson Álvarez",
+    "nome_guerra": "Álvarez",
+    "selecao": 1,
+    "posicao": "VOLANTE",
+    "nascimento": "1997-10-23",
+    "numero_camisa": 6,
+    "suspenso": false
+  },
+  {
+    "nome": "Hirving Rodrigo Lozano",
+    "nome_guerra": "Chucky",
+    "selecao": 1,
+    "posicao": "ATACANTE",
+    "nascimento": "1995-07-30",
+    "numero_camisa": 7,
+    "suspenso": false
+  },
+  {
+    "nome": "Marcel Ruiz",
+    "nome_guerra": "Ruiz",
+    "selecao": 1,
+    "posicao": "VOLANTE",
+    "nascimento": "1999-05-26",
+    "numero_camisa": 8,
+    "suspenso": false
+  },
+  {
+    "nome": "Santiago Giménez",
+    "nome_guerra": "Giménez",
+    "selecao": 1,
+    "posicao": "ATACANTE",
+    "nascimento": "2001-04-18",
+    "numero_camisa": 9,
+    "suspenso": false
+  },
+  {
+    "nome": "Alexis Vega",
+    "nome_guerra": "Vega",
+    "selecao": 1,
+    "posicao": "MEIO-CAMPISTA",
+    "nascimento": "1997-11-24",
+    "numero_camisa": 10,
+    "suspenso": false
+  },
+  {
+    "nome": "Roberto Carlos Alvarado",
+    "nome_guerra": "Piojo",
+    "selecao": 1,
+    "posicao": "ATACANTE",
+    "nascimento": "1999-02-22",
+    "numero_camisa": 11,
+    "suspenso": false
+  },
+  {
+    "nome": "Ronwen Williams",
+    "nome_guerra": "Williams",
+    "selecao": 2,
+    "posicao": "GOLEIRO",
+    "nascimento": "1992-05-30",
+    "numero_camisa": 1,
+    "suspenso": false
+  },
+  {
+    "nome": "Reeve Frosler",
+    "nome_guerra": "Frosler",
+    "selecao": 2,
+    "posicao": "LATERAL",
+    "nascimento": "1999-05-05",
+    "numero_camisa": 2,
+    "suspenso": false
+  },
+  {
+    "nome": "Sifiso Hlanti",
+    "nome_guerra": "Hlanti",
+    "selecao": 2,
+    "posicao": "LATERAL",
+    "nascimento": "1990-09-14",
+    "numero_camisa": 3,
+    "suspenso": false
+  },
+  {
+    "nome": "Rushine de Reuck",
+    "nome_guerra": "De Reuck",
+    "selecao": 2,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1996-04-13",
+    "numero_camisa": 4,
+    "suspenso": false
+  },
+  {
+    "nome": "Mothobi Mvala",
+    "nome_guerra": "Mvala",
+    "selecao": 2,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1995-07-24",
+    "numero_camisa": 5,
+    "suspenso": false
+  },
+  {
+    "nome": "Bongani Zungu",
+    "nome_guerra": "Zungu",
+    "selecao": 2,
+    "posicao": "VOLANTE",
+    "nascimento": "1992-10-09",
+    "numero_camisa": 6,
+    "suspenso": false
+  },
+  {
+    "nome": "Percy Muzi Tau",
+    "nome_guerra": "Tau",
+    "selecao": 2,
+    "posicao": "ATACANTE",
+    "nascimento": "1994-05-13",
+    "numero_camisa": 7,
+    "suspenso": false
+  },
+  {
+    "nome": "Teboho Mokoena",
+    "nome_guerra": "Mokoena",
+    "selecao": 2,
+    "posicao": "VOLANTE",
+    "nascimento": "1996-12-21",
+    "numero_camisa": 8,
+    "suspenso": false
+  },
+  {
+    "nome": "Evidence Makgopa",
+    "nome_guerra": "Makgopa",
+    "selecao": 2,
+    "posicao": "ATACANTE",
+    "nascimento": "2000-04-28",
+    "numero_camisa": 9,
+    "suspenso": false
+  },
+  {
+    "nome": "Themba Zwane",
+    "nome_guerra": "Zwane",
+    "selecao": 2,
+    "posicao": "MEIO-CAMPISTA",
+    "nascimento": "1992-03-04",
+    "numero_camisa": 10,
+    "suspenso": false
+  },
+  {
+    "nome": "Lyle Foster",
+    "nome_guerra": "Foster",
+    "selecao": 2,
+    "posicao": "ATACANTE",
+    "nascimento": "2000-08-01",
+    "numero_camisa": 11,
+    "suspenso": false
+  },
+  {
+    "nome": "Kim Seung-gyu",
+    "nome_guerra": "Kim Seung-gyu",
+    "selecao": 3,
+    "posicao": "GOLEIRO",
+    "nascimento": "1990-01-30",
+    "numero_camisa": 1,
+    "suspenso": false
+  },
+  {
+    "nome": "Kim Moon-hwan",
+    "nome_guerra": "Kim Moon-hwan",
+    "selecao": 3,
+    "posicao": "LATERAL",
+    "nascimento": "1995-11-01",
+    "numero_camisa": 2,
+    "suspenso": false
+  },
+  {
+    "nome": "Kim Jin-su",
+    "nome_guerra": "Kim Jin-su",
+    "selecao": 3,
+    "posicao": "LATERAL",
+    "nascimento": "1992-06-13",
+    "numero_camisa": 3,
+    "suspenso": false
+  },
+  {
+    "nome": "Kim Min-jae",
+    "nome_guerra": "Kim Min-jae",
+    "selecao": 3,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1996-11-15",
+    "numero_camisa": 4,
+    "suspenso": false
+  },
+  {
+    "nome": "Kwon Kyung-won",
+    "nome_guerra": "Kwon Kyung-won",
+    "selecao": 3,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1992-01-31",
+    "numero_camisa": 5,
+    "suspenso": false
+  },
+  {
+    "nome": "Jung Woo-young",
+    "nome_guerra": "Jung Woo-young",
+    "selecao": 3,
+    "posicao": "VOLANTE",
+    "nascimento": "1989-09-23",
+    "numero_camisa": 6,
+    "suspenso": false
+  },
+  {
+    "nome": "Lee Kang-in",
+    "nome_guerra": "Lee Kang-in",
+    "selecao": 3,
+    "posicao": "ATACANTE",
+    "nascimento": "2001-02-19",
+    "numero_camisa": 7,
+    "suspenso": false
+  },
+  {
+    "nome": "Hwang In-beom",
+    "nome_guerra": "Hwang In-beom",
+    "selecao": 3,
+    "posicao": "VOLANTE",
+    "nascimento": "1996-09-20",
+    "numero_camisa": 8,
+    "suspenso": false
+  },
+  {
+    "nome": "Cho Gue-sung",
+    "nome_guerra": "Cho Gue-sung",
+    "selecao": 3,
+    "posicao": "ATACANTE",
+    "nascimento": "1998-01-25",
+    "numero_camisa": 9,
+    "suspenso": false
+  },
+  {
+    "nome": "Son Heung-min",
+    "nome_guerra": "Son",
+    "selecao": 3,
+    "posicao": "MEIO-CAMPISTA",
+    "nascimento": "1992-07-08",
+    "numero_camisa": 10,
+    "suspenso": false
+  },
+  {
+    "nome": "Hwang Hee-chan",
+    "nome_guerra": "Hwang Hee-chan",
+    "selecao": 3,
+    "posicao": "ATACANTE",
+    "nascimento": "1996-01-26",
+    "numero_camisa": 11,
+    "suspenso": false
+  },
+  {
+    "nome": "Jiří Staněk",
+    "nome_guerra": "Staněk",
+    "selecao": 4,
+    "posicao": "GOLEIRO",
+    "nascimento": "1998-06-27",
+    "numero_camisa": 1,
+    "suspenso": false
+  },
+  {
+    "nome": "Vladimír Coufal",
+    "nome_guerra": "Coufal",
+    "selecao": 4,
+    "posicao": "LATERAL",
+    "nascimento": "1992-08-22",
+    "numero_camisa": 2,
+    "suspenso": false
+  },
+  {
+    "nome": "Jan Bořil",
+    "nome_guerra": "Bořil",
+    "selecao": 4,
+    "posicao": "LATERAL",
+    "nascimento": "1991-01-11",
+    "numero_camisa": 3,
+    "suspenso": false
+  },
+  {
+    "nome": "Tomáš Holeš",
+    "nome_guerra": "Holeš",
+    "selecao": 4,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1993-03-08",
+    "numero_camisa": 4,
+    "suspenso": false
+  },
+  {
+    "nome": "Robin Hranáč",
+    "nome_guerra": "Hranáč",
+    "selecao": 4,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "2001-04-11",
+    "numero_camisa": 5,
+    "suspenso": false
+  },
+  {
+    "nome": "Tomáš Souček",
+    "nome_guerra": "Souček",
+    "selecao": 4,
+    "posicao": "VOLANTE",
+    "nascimento": "1995-02-27",
+    "numero_camisa": 6,
+    "suspenso": false
+  },
+  {
+    "nome": "Adam Hložek",
+    "nome_guerra": "Hložek",
+    "selecao": 4,
+    "posicao": "ATACANTE",
+    "nascimento": "2002-07-25",
+    "numero_camisa": 7,
+    "suspenso": false
+  },
+  {
+    "nome": "Alex Král",
+    "nome_guerra": "Král",
+    "selecao": 4,
+    "posicao": "VOLANTE",
+    "nascimento": "1998-05-19",
+    "numero_camisa": 8,
+    "suspenso": false
+  },
+  {
+    "nome": "Patrik Schick",
+    "nome_guerra": "Schick",
+    "selecao": 4,
+    "posicao": "ATACANTE",
+    "nascimento": "1996-01-24",
+    "numero_camisa": 9,
+    "suspenso": false
+  },
+  {
+    "nome": "Lukáš Provod",
+    "nome_guerra": "Provod",
+    "selecao": 4,
+    "posicao": "MEIO-CAMPISTA",
+    "nascimento": "1996-05-28",
+    "numero_camisa": 10,
+    "suspenso": false
+  },
+  {
+    "nome": "Ondřej Lingr",
+    "nome_guerra": "Lingr",
+    "selecao": 4,
+    "posicao": "ATACANTE",
+    "nascimento": "1999-10-14",
+    "numero_camisa": 11,
+    "suspenso": false
+  },
+  {
+    "nome": "Maxime Crépeau",
+    "nome_guerra": "Crépeau",
+    "selecao": 5,
+    "posicao": "GOLEIRO",
+    "nascimento": "1994-05-11",
+    "numero_camisa": 1,
+    "suspenso": false
+  },
+  {
+    "nome": "Richie Laryea",
+    "nome_guerra": "Laryea",
+    "selecao": 5,
+    "posicao": "LATERAL",
+    "nascimento": "1995-01-07",
+    "numero_camisa": 2,
+    "suspenso": false
+  },
+  {
+    "nome": "Samuel Adekugbe",
+    "nome_guerra": "Adekugbe",
+    "selecao": 5,
+    "posicao": "LATERAL",
+    "nascimento": "1996-01-16",
+    "numero_camisa": 3,
+    "suspenso": false
+  },
+  {
+    "nome": "Kamal Miller",
+    "nome_guerra": "Miller",
+    "selecao": 5,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1997-08-17",
+    "numero_camisa": 4,
+    "suspenso": false
+  },
+  {
+    "nome": "Donovan Pines",
+    "nome_guerra": "Pines",
+    "selecao": 5,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1999-01-16",
+    "numero_camisa": 5,
+    "suspenso": false
+  },
+  {
+    "nome": "Stephen Eustaquio",
+    "nome_guerra": "Eustaquio",
+    "selecao": 5,
+    "posicao": "VOLANTE",
+    "nascimento": "1996-12-21",
+    "numero_camisa": 6,
+    "suspenso": false
+  },
+  {
+    "nome": "Tajon Buchanan",
+    "nome_guerra": "Buchanan",
+    "selecao": 5,
+    "posicao": "ATACANTE",
+    "nascimento": "1999-02-08",
+    "numero_camisa": 7,
+    "suspenso": false
+  },
+  {
+    "nome": "Jonathan Osorio",
+    "nome_guerra": "Osorio",
+    "selecao": 5,
+    "posicao": "VOLANTE",
+    "nascimento": "1992-06-12",
+    "numero_camisa": 8,
+    "suspenso": false
+  },
+  {
+    "nome": "Jonathan David",
+    "nome_guerra": "David",
+    "selecao": 5,
+    "posicao": "ATACANTE",
+    "nascimento": "2000-01-14",
+    "numero_camisa": 9,
+    "suspenso": false
+  },
+  {
+    "nome": "Alphonso Davies",
+    "nome_guerra": "Davies",
+    "selecao": 5,
+    "posicao": "MEIO-CAMPISTA",
+    "nascimento": "2000-11-02",
+    "numero_camisa": 10,
+    "suspenso": false
+  },
+  {
+    "nome": "Liam Millar",
+    "nome_guerra": "Millar",
+    "selecao": 5,
+    "posicao": "ATACANTE",
+    "nascimento": "1999-09-27",
+    "numero_camisa": 11,
+    "suspenso": false
+  },
+  {
+    "nome": "Gregor Kobel",
+    "nome_guerra": "Kobel",
+    "selecao": 6,
+    "posicao": "GOLEIRO",
+    "nascimento": "1997-12-06",
+    "numero_camisa": 1,
+    "suspenso": false
+  },
+  {
+    "nome": "Silvan Widmer",
+    "nome_guerra": "Widmer",
+    "selecao": 6,
+    "posicao": "LATERAL",
+    "nascimento": "1993-03-05",
+    "numero_camisa": 2,
+    "suspenso": false
+  },
+  {
+    "nome": "Ricardo Rodríguez",
+    "nome_guerra": "Rodríguez",
+    "selecao": 6,
+    "posicao": "LATERAL",
+    "nascimento": "1992-08-25",
+    "numero_camisa": 3,
+    "suspenso": false
+  },
+  {
+    "nome": "Manuel Akanji",
+    "nome_guerra": "Akanji",
+    "selecao": 6,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1995-07-19",
+    "numero_camisa": 4,
+    "suspenso": false
+  },
+  {
+    "nome": "Nico Elvedi",
+    "nome_guerra": "Elvedi",
+    "selecao": 6,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1996-09-30",
+    "numero_camisa": 5,
+    "suspenso": false
+  },
+  {
+    "nome": "Granit Xhaka",
+    "nome_guerra": "Xhaka",
+    "selecao": 6,
+    "posicao": "VOLANTE",
+    "nascimento": "1992-09-27",
+    "numero_camisa": 6,
+    "suspenso": false
+  },
+  {
+    "nome": "Ruben Vargas",
+    "nome_guerra": "Vargas",
+    "selecao": 6,
+    "posicao": "ATACANTE",
+    "nascimento": "1998-08-05",
+    "numero_camisa": 7,
+    "suspenso": false
+  },
+  {
+    "nome": "Remo Freuler",
+    "nome_guerra": "Freuler",
+    "selecao": 6,
+    "posicao": "VOLANTE",
+    "nascimento": "1992-04-15",
+    "numero_camisa": 8,
+    "suspenso": false
+  },
+  {
+    "nome": "Breel Embolo",
+    "nome_guerra": "Embolo",
+    "selecao": 6,
+    "posicao": "ATACANTE",
+    "nascimento": "1997-02-14",
+    "numero_camisa": 9,
+    "suspenso": false
+  },
+  {
+    "nome": "Xherdan Shaqiri",
+    "nome_guerra": "Shaqiri",
+    "selecao": 6,
+    "posicao": "MEIO-CAMPISTA",
+    "nascimento": "1991-10-10",
+    "numero_camisa": 10,
+    "suspenso": false
+  },
+  {
+    "nome": "Noah Okafor",
+    "nome_guerra": "Okafor",
+    "selecao": 6,
+    "posicao": "ATACANTE",
+    "nascimento": "2000-05-24",
+    "numero_camisa": 11,
+    "suspenso": false
+  },
+  {
+    "nome": "Meshaal Barsham",
+    "nome_guerra": "Barsham",
+    "selecao": 7,
+    "posicao": "GOLEIRO",
+    "nascimento": "1993-04-14",
+    "numero_camisa": 1,
+    "suspenso": false
+  },
+  {
+    "nome": "Pedro Miguel",
+    "nome_guerra": "Pedro Miguel",
+    "selecao": 7,
+    "posicao": "LATERAL",
+    "nascimento": "1990-05-06",
+    "numero_camisa": 2,
+    "suspenso": false
+  },
+  {
+    "nome": "Abdelkarim Hassan",
+    "nome_guerra": "Hassan",
+    "selecao": 7,
+    "posicao": "LATERAL",
+    "nascimento": "1993-08-28",
+    "numero_camisa": 3,
+    "suspenso": false
+  },
+  {
+    "nome": "Bassam Al-Rawi",
+    "nome_guerra": "Al-Rawi",
+    "selecao": 7,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1993-05-12",
+    "numero_camisa": 4,
+    "suspenso": false
+  },
+  {
+    "nome": "Tarek Salman",
+    "nome_guerra": "Salman",
+    "selecao": 7,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1993-11-12",
+    "numero_camisa": 5,
+    "suspenso": false
+  },
+  {
+    "nome": "Ali Asad",
+    "nome_guerra": "Asad",
+    "selecao": 7,
+    "posicao": "VOLANTE",
+    "nascimento": "1991-11-01",
+    "numero_camisa": 6,
+    "suspenso": false
+  },
+  {
+    "nome": "Akram Afif",
+    "nome_guerra": "Afif",
+    "selecao": 7,
+    "posicao": "ATACANTE",
+    "nascimento": "1996-11-18",
+    "numero_camisa": 7,
+    "suspenso": false
+  },
+  {
+    "nome": "Hassan Al-Haydos",
+    "nome_guerra": "Al-Haydos",
+    "selecao": 7,
+    "posicao": "VOLANTE",
+    "nascimento": "1990-12-22",
+    "numero_camisa": 8,
+    "suspenso": false
+  },
+  {
+    "nome": "Almoez Ali",
+    "nome_guerra": "Almoez Ali",
+    "selecao": 7,
+    "posicao": "ATACANTE",
+    "nascimento": "1996-08-19",
+    "numero_camisa": 9,
+    "suspenso": false
+  },
+  {
+    "nome": "Assim Madibo",
+    "nome_guerra": "Madibo",
+    "selecao": 7,
+    "posicao": "MEIO-CAMPISTA",
+    "nascimento": "1998-05-28",
+    "numero_camisa": 10,
+    "suspenso": false
+  },
+  {
+    "nome": "Ahmed Alaaeldin",
+    "nome_guerra": "Alaaeldin",
+    "selecao": 7,
+    "posicao": "ATACANTE",
+    "nascimento": "1993-05-07",
+    "numero_camisa": 11,
+    "suspenso": false
+  },
+  {
+    "nome": "Ibrahim Šehić",
+    "nome_guerra": "Šehić",
+    "selecao": 8,
+    "posicao": "GOLEIRO",
+    "nascimento": "1990-01-25",
+    "numero_camisa": 1,
+    "suspenso": false
+  },
+  {
+    "nome": "Josip Stanišić",
+    "nome_guerra": "Stanišić",
+    "selecao": 8,
+    "posicao": "LATERAL",
+    "nascimento": "2000-04-02",
+    "numero_camisa": 2,
+    "suspenso": false
+  },
+  {
+    "nome": "Sead Kolašinac",
+    "nome_guerra": "Kolašinac",
+    "selecao": 8,
+    "posicao": "LATERAL",
+    "nascimento": "1993-06-20",
+    "numero_camisa": 3,
+    "suspenso": false
+  },
+  {
+    "nome": "Anel Ahmedhodžić",
+    "nome_guerra": "Ahmedhodžić",
+    "selecao": 8,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1999-03-26",
+    "numero_camisa": 4,
+    "suspenso": false
+  },
+  {
+    "nome": "Ermin Bičakčić",
+    "nome_guerra": "Bičakčić",
+    "selecao": 8,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1990-01-24",
+    "numero_camisa": 5,
+    "suspenso": false
+  },
+  {
+    "nome": "Amer Gojak",
+    "nome_guerra": "Gojak",
+    "selecao": 8,
+    "posicao": "VOLANTE",
+    "nascimento": "1997-02-13",
+    "numero_camisa": 6,
+    "suspenso": false
+  },
+  {
+    "nome": "Dino Hotić",
+    "nome_guerra": "Hotić",
+    "selecao": 8,
+    "posicao": "ATACANTE",
+    "nascimento": "1995-07-28",
+    "numero_camisa": 7,
+    "suspenso": false
+  },
+  {
+    "nome": "Miralem Pjanić",
+    "nome_guerra": "Pjanić",
+    "selecao": 8,
+    "posicao": "VOLANTE",
+    "nascimento": "1990-04-02",
+    "numero_camisa": 8,
+    "suspenso": false
+  },
+  {
+    "nome": "Ermedin Demirović",
+    "nome_guerra": "Demirović",
+    "selecao": 8,
+    "posicao": "ATACANTE",
+    "nascimento": "1998-03-25",
+    "numero_camisa": 9,
+    "suspenso": false
+  },
+  {
+    "nome": "Haris Hajradinović",
+    "nome_guerra": "Hajradinović",
+    "selecao": 8,
+    "posicao": "MEIO-CAMPISTA",
+    "nascimento": "1995-07-30",
+    "numero_camisa": 10,
+    "suspenso": false
+  },
+  {
+    "nome": "Amar Rahmanović",
+    "nome_guerra": "Rahmanović",
+    "selecao": 8,
+    "posicao": "ATACANTE",
+    "nascimento": "2003-05-11",
+    "numero_camisa": 11,
+    "suspenso": false
+  },
+  {
+    "nome": "Alisson Ramses Becker",
+    "nome_guerra": "Alisson",
+    "selecao": 9,
+    "posicao": "GOLEIRO",
+    "nascimento": "1992-10-02",
+    "numero_camisa": 1,
+    "suspenso": false
+  },
+  {
+    "nome": "Vanderson de Oliveira Campos",
+    "nome_guerra": "Vanderson",
+    "selecao": 9,
+    "posicao": "LATERAL",
+    "nascimento": "2001-06-21",
+    "numero_camisa": 2,
+    "suspenso": false
+  },
+  {
+    "nome": "Guilherme Arana",
+    "nome_guerra": "Arana",
+    "selecao": 9,
+    "posicao": "LATERAL",
+    "nascimento": "1997-04-14",
+    "numero_camisa": 3,
+    "suspenso": false
+  },
+  {
+    "nome": "Marquinhos",
+    "nome_guerra": "Marquinhos",
+    "selecao": 9,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1994-05-14",
+    "numero_camisa": 4,
+    "suspenso": false
+  },
+  {
+    "nome": "Gabriel Magalhães",
+    "nome_guerra": "Gabriel",
+    "selecao": 9,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1997-12-19",
+    "numero_camisa": 5,
+    "suspenso": false
+  },
+  {
+    "nome": "Carlos Henrique Casemiro",
+    "nome_guerra": "Casemiro",
+    "selecao": 9,
+    "posicao": "VOLANTE",
+    "nascimento": "1992-02-23",
+    "numero_camisa": 6,
+    "suspenso": false
+  },
+  {
+    "nome": "Rodrygo Silva de Goes",
+    "nome_guerra": "Rodrygo",
+    "selecao": 9,
+    "posicao": "ATACANTE",
+    "nascimento": "2001-01-09",
+    "numero_camisa": 7,
+    "suspenso": false
+  },
+  {
+    "nome": "Bruno Guimarães Rodriguez Moura",
+    "nome_guerra": "Bruno Guimarães",
+    "selecao": 9,
+    "posicao": "VOLANTE",
+    "nascimento": "1997-11-16",
+    "numero_camisa": 8,
+    "suspenso": false
+  },
+  {
+    "nome": "Endrick Felipe Moreira de Sousa",
+    "nome_guerra": "Endrick",
+    "selecao": 9,
+    "posicao": "ATACANTE",
+    "nascimento": "2006-07-21",
+    "numero_camisa": 9,
+    "suspenso": false
+  },
+  {
+    "nome": "Raphael Dias Belloli",
+    "nome_guerra": "Raphinha",
+    "selecao": 9,
+    "posicao": "MEIO-CAMPISTA",
+    "nascimento": "1996-12-14",
+    "numero_camisa": 10,
+    "suspenso": false
+  },
+  {
+    "nome": "Vinicius José Paixão de Oliveira Júnior",
+    "nome_guerra": "Vinicius Jr",
+    "selecao": 9,
+    "posicao": "ATACANTE",
+    "nascimento": "2000-07-12",
+    "numero_camisa": 11,
+    "suspenso": false
+  },
+  {
+    "nome": "Yassine Bounou",
+    "nome_guerra": "Bono",
+    "selecao": 10,
+    "posicao": "GOLEIRO",
+    "nascimento": "1991-04-05",
+    "numero_camisa": 1,
+    "suspenso": false
+  },
+  {
+    "nome": "Noussair Mazraoui",
+    "nome_guerra": "Mazraoui",
+    "selecao": 10,
+    "posicao": "LATERAL",
+    "nascimento": "1997-11-14",
+    "numero_camisa": 2,
+    "suspenso": false
+  },
+  {
+    "nome": "Adam Masina",
+    "nome_guerra": "Masina",
+    "selecao": 10,
+    "posicao": "LATERAL",
+    "nascimento": "1994-01-02",
+    "numero_camisa": 3,
+    "suspenso": false
+  },
+  {
+    "nome": "Nayef Aguerd",
+    "nome_guerra": "Aguerd",
+    "selecao": 10,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1996-03-30",
+    "numero_camisa": 4,
+    "suspenso": false
+  },
+  {
+    "nome": "Romain Saïss",
+    "nome_guerra": "Saïss",
+    "selecao": 10,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1990-03-26",
+    "numero_camisa": 5,
+    "suspenso": false
+  },
+  {
+    "nome": "Sofyan Amrabat",
+    "nome_guerra": "Amrabat",
+    "selecao": 10,
+    "posicao": "VOLANTE",
+    "nascimento": "1996-08-21",
+    "numero_camisa": 6,
+    "suspenso": false
+  },
+  {
+    "nome": "Hakim Ziyech",
+    "nome_guerra": "Ziyech",
+    "selecao": 10,
+    "posicao": "ATACANTE",
+    "nascimento": "1993-03-19",
+    "numero_camisa": 7,
+    "suspenso": false
+  },
+  {
+    "nome": "Azzedine Ounahi",
+    "nome_guerra": "Ounahi",
+    "selecao": 10,
+    "posicao": "VOLANTE",
+    "nascimento": "2000-04-08",
+    "numero_camisa": 8,
+    "suspenso": false
+  },
+  {
+    "nome": "Youssef En-Nesyri",
+    "nome_guerra": "En-Nesyri",
+    "selecao": 10,
+    "posicao": "ATACANTE",
+    "nascimento": "1997-06-01",
+    "numero_camisa": 9,
+    "suspenso": false
+  },
+  {
+    "nome": "Abde Ezzalzouli",
+    "nome_guerra": "Abde",
+    "selecao": 10,
+    "posicao": "MEIO-CAMPISTA",
+    "nascimento": "2001-12-17",
+    "numero_camisa": 10,
+    "suspenso": false
+  },
+  {
+    "nome": "Soufiane Rahimi",
+    "nome_guerra": "Rahimi",
+    "selecao": 10,
+    "posicao": "ATACANTE",
+    "nascimento": "1996-06-07",
+    "numero_camisa": 11,
+    "suspenso": false
+  },
+  {
+    "nome": "Josué Duverger",
+    "nome_guerra": "Duverger",
+    "selecao": 11,
+    "posicao": "GOLEIRO",
+    "nascimento": "1994-02-20",
+    "numero_camisa": 1,
+    "suspenso": false
+  },
+  {
+    "nome": "Steeven Saba",
+    "nome_guerra": "Saba",
+    "selecao": 11,
+    "posicao": "LATERAL",
+    "nascimento": "1997-04-17",
+    "numero_camisa": 2,
+    "suspenso": false
+  },
+  {
+    "nome": "Mechack Jérôme",
+    "nome_guerra": "Jérôme",
+    "selecao": 11,
+    "posicao": "LATERAL",
+    "nascimento": "1994-02-08",
+    "numero_camisa": 3,
+    "suspenso": false
+  },
+  {
+    "nome": "Mikael Cantave",
+    "nome_guerra": "Cantave",
+    "selecao": 11,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1993-04-17",
+    "numero_camisa": 4,
+    "suspenso": false
+  },
+  {
+    "nome": "Donyl Boisrond",
+    "nome_guerra": "Boisrond",
+    "selecao": 11,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1999-09-14",
+    "numero_camisa": 5,
+    "suspenso": false
+  },
+  {
+    "nome": "Wilde-Donald Guerrier",
+    "nome_guerra": "Guerrier",
+    "selecao": 11,
+    "posicao": "VOLANTE",
+    "nascimento": "1993-03-17",
+    "numero_camisa": 6,
+    "suspenso": false
+  },
+  {
+    "nome": "Kervens Belfort",
+    "nome_guerra": "Belfort",
+    "selecao": 11,
+    "posicao": "ATACANTE",
+    "nascimento": "1991-12-13",
+    "numero_camisa": 7,
+    "suspenso": false
+  },
+  {
+    "nome": "Duckens Nazon",
+    "nome_guerra": "Nazon",
+    "selecao": 11,
+    "posicao": "VOLANTE",
+    "nascimento": "1994-05-28",
+    "numero_camisa": 8,
+    "suspenso": false
+  },
+  {
+    "nome": "Frantzdy Pierrot",
+    "nome_guerra": "Pierrot",
+    "selecao": 11,
+    "posicao": "ATACANTE",
+    "nascimento": "1995-04-11",
+    "numero_camisa": 9,
+    "suspenso": false
+  },
+  {
+    "nome": "Kevens Léger",
+    "nome_guerra": "Léger",
+    "selecao": 11,
+    "posicao": "MEIO-CAMPISTA",
+    "nascimento": "1997-08-22",
+    "numero_camisa": 10,
+    "suspenso": false
+  },
+  {
+    "nome": "Jeff Louis",
+    "nome_guerra": "Louis",
+    "selecao": 11,
+    "posicao": "ATACANTE",
+    "nascimento": "1999-12-01",
+    "numero_camisa": 11,
+    "suspenso": false
+  },
+  {
+    "nome": "Angus Gunn",
+    "nome_guerra": "Gunn",
+    "selecao": 12,
+    "posicao": "GOLEIRO",
+    "nascimento": "1994-01-22",
+    "numero_camisa": 1,
+    "suspenso": false
+  },
+  {
+    "nome": "Aaron Hickey",
+    "nome_guerra": "Hickey",
+    "selecao": 12,
+    "posicao": "LATERAL",
+    "nascimento": "2002-06-10",
+    "numero_camisa": 2,
+    "suspenso": false
+  },
+  {
+    "nome": "Andrew Robertson",
+    "nome_guerra": "Robertson",
+    "selecao": 12,
+    "posicao": "LATERAL",
+    "nascimento": "1994-03-11",
+    "numero_camisa": 3,
+    "suspenso": false
+  },
+  {
+    "nome": "Jack Hendry",
+    "nome_guerra": "Hendry",
+    "selecao": 12,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1995-05-07",
+    "numero_camisa": 4,
+    "suspenso": false
+  },
+  {
+    "nome": "Scott McKenna",
+    "nome_guerra": "McKenna",
+    "selecao": 12,
+    "posicao": "ZAGUEIRO",
+    "nascimento": "1996-11-12",
+    "numero_camisa": 5,
+    "suspenso": false
+  },
+  {
+    "nome": "Billy Gilmour",
+    "nome_guerra": "Gilmour",
+    "selecao": 12,
+    "posicao": "VOLANTE",
+    "nascimento": "2001-06-11",
+    "numero_camisa": 6,
+    "suspenso": false
+  },
+  {
+    "nome": "Ryan Christie",
+    "nome_guerra": "Christie",
+    "selecao": 12,
+    "posicao": "ATACANTE",
+    "nascimento": "1995-02-22",
+    "numero_camisa": 7,
+    "suspenso": false
+  },
+  {
+    "nome": "John McGinn",
+    "nome_guerra": "McGinn",
+    "selecao": 12,
+    "posicao": "VOLANTE",
+    "nascimento": "1994-10-18",
+    "numero_camisa": 8,
+    "suspenso": false
+  },
+  {
+    "nome": "Che Adams",
+    "nome_guerra": "Adams",
+    "selecao": 12,
+    "posicao": "ATACANTE",
+    "nascimento": "1995-07-13",
+    "numero_camisa": 9,
+    "suspenso": false
+  },
+  {
+    "nome": "Scott McTominay",
+    "nome_guerra": "McTominay",
+    "selecao": 12,
+    "posicao": "MEIO-CAMPISTA",
+    "nascimento": "1996-12-08",
+    "numero_camisa": 10,
+    "suspenso": false
+  },
+  {
+    "nome": "Stuart Armstrong",
+    "nome_guerra": "Armstrong",
+    "selecao": 12,
+    "posicao": "ATACANTE",
+    "nascimento": "1992-03-30",
+    "numero_camisa": 11,
+    "suspenso": false
+  }
+]

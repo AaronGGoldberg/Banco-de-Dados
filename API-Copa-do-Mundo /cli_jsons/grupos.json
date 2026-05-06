@@ -1,0 +1,14 @@
+[
+  { "nome": "A", "descricao": "Grupo A: México, África do Sul, Coreia do Sul, República Checa" },
+  { "nome": "B", "descricao": "Grupo B: Canadá, Suíça, Catar, Bósnia e Herzegovina" },
+  { "nome": "C", "descricao": "Grupo C: Brasil, Marrocos, Haiti, Escócia" },
+  { "nome": "D", "descricao": "Grupo D: Estados Unidos, Paraguai, Austrália, Turquia" },
+  { "nome": "E", "descricao": "Grupo E: Alemanha, Curaçao, Costa do Marfim, Equador" },
+  { "nome": "F", "descricao": "Grupo F: Holanda, Japão, Tunísia, Suécia" },
+  { "nome": "G", "descricao": "Grupo G: Bélgica, Egito, Irã, Nova Zelândia" },
+  { "nome": "H", "descricao": "Grupo H: Espanha, Cabo Verde, Arábia Saudita, Uruguai" },
+  { "nome": "I", "descricao": "Grupo I: França, Senegal, Noruega, Iraque" },
+  { "nome": "J", "descricao": "Grupo J: Argentina, Argélia, Áustria, Jordânia" },
+  { "nome": "K", "descricao": "Grupo K: Portugal, Uzbequistão, Colômbia, República Democrática do Congo" },
+  { "nome": "L", "descricao": "Grupo L: Inglaterra, Croácia, Gana, Panamá" }
+]
