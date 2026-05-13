@@ -79,9 +79,9 @@ CORS_ALLOW_ALL_ORIGINS = True
 # ============================
 
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': [
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-    ],
+    # 'DEFAULT_AUTHENTICATION_CLASSES': [
+    #     'rest_framework_simplejwt.authentication.JWTAuthentication',
+    # ],
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.AllowAny',
     ],
@@ -140,8 +140,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'amazon',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',  # sua senha definida
+        'USER': 'codespace',
+        'PASSWORD': 'codespace',  # senha definida
         'HOST': 'localhost',
         'PORT': '5432',
     }
@@ -167,6 +167,9 @@ AUTH_PASSWORD_VALIDATORS = [
 SWAGGER_SETTINGS = {
     # 👉 Desativa autenticação por sessão no Swagger (evita conflito CSRF)
     'USE_SESSION_AUTH': False,
+
+    # 👉 Permite acesso público ao Swagger (sem exigir login)
+    'SECURITY_REQUIREMENTS': [],
 
     'SECURITY_DEFINITIONS': {
         'Bearer': {

@@ -84,6 +84,39 @@ python manage.py runserver
 
 ---
 
+## 🔧 Resolução do problema com PostgreSQL
+
+Durante o desenvolvimento, enfrentamos problemas com autenticação no PostgreSQL que impediam a execução de `python manage.py migrate` sem inserir senhas manualmente. Aqui está como resolvemos:
+
+### Problema identificado:
+- PostgreSQL configurado com autenticação `peer` e `scram-sha-256`, exigindo senhas.
+- Usuário `codespace` (do ambiente de desenvolvimento) não existia no banco.
+- Conexões locais requeriam autenticação.
+
+### Solução aplicada:
+
+1. **Alteramos a autenticação local para `trust`**:
+   - Editamos `/etc/postgresql/16/main/pg_hba.conf` para permitir conexões locais sem senha.
+   - Comando: `sudo sed -i 's/local   all             all                                     peer/local   all             all                                     trust/' /etc/postgresql/16/main/pg_hba.conf`
+   - Recarregamos a configuração: `sudo service postgresql reload`
+
+2. **Criamos o usuário e banco necessários**:
+   - Usuário: `codespace` com senha `codespace`
+   - Banco: `amazon` pertencente ao usuário `codespace`
+   - Comandos executados via `psql -U postgres`
+
+3. **Atualizamos `settings.py`**:
+   - Mudamos as configurações de `DATABASES` para usar o usuário `codespace` em vez de `postgres`.
+
+### Resultado:
+- Agora `python manage.py migrate` roda sem pedir senhas.
+- O banco PostgreSQL está configurado e funcionando.
+- Tudo pronto para desenvolvimento sem interrupções.
+
+> **Nota**: Em produção, reconfigure a autenticação para `scram-sha-256` e use senhas fortes.
+
+---
+
 ## 🧪 Como testar rápido
 
 ### Exemplo: criar vendedor (POST)
