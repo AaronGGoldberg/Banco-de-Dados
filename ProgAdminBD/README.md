@@ -118,5 +118,3 @@ Esse repositório agora está pronto para treinar:
 - filtros, busca e ordenação
 - modelagem de tabelas no Django ORM
 - evolução para relacionamentos entre modelos
-
-Se quiser, no próximo passo eu também posso adicionar exemplos prontos de coleção do Insomnia/Postman para os três recursos.
