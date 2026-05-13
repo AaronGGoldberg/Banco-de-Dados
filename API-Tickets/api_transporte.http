@@ -1,0 +1,336 @@
+@baseUrl = http://127.0.0.1:8000
+
+##################################################
+### MUNICÍPIOS
+##################################################
+
+### Criar Município
+POST {{baseUrl}}/municipios/
+Content-Type: application/json
+
+{
+    "nome": "Natal",
+    "uf": "RN"
+}
+
+###
+
+### Listar Municípios
+GET {{baseUrl}}/municipios/
+
+###
+
+### Buscar Município por ID
+GET {{baseUrl}}/municipios/1/
+
+###
+
+### Atualizar Município (PUT)
+PUT {{baseUrl}}/municipios/1/
+Content-Type: application/json
+
+{
+    "nome": "Natal Atualizado",
+    "uf": "RN"
+}
+
+###
+
+### Atualização Parcial Município (PATCH)
+PATCH {{baseUrl}}/municipios/1/
+Content-Type: application/json
+
+{
+    "nome": "Natal PATCH"
+}
+
+###
+
+##################################################
+### EMPRESAS
+##################################################
+
+### Criar Empresa
+POST {{baseUrl}}/empresas/
+Content-Type: application/json
+
+{
+    "razao_social": "Natal Transportes LTDA",
+    "nome_fantasia": "Natal Express",
+    "cnpj": "12.345.678/0001-99",
+    "municipio": 1
+}
+
+###
+
+### Listar Empresas
+GET {{baseUrl}}/empresas/
+
+###
+
+### Buscar Empresa
+GET {{baseUrl}}/empresas/1/
+
+###
+
+### Painel da Empresa
+GET {{baseUrl}}/empresas/1/painel/
+
+###
+
+### Relatório da Empresa
+GET {{baseUrl}}/empresas/1/relatorio/
+
+###
+
+##################################################
+### USUÁRIOS
+##################################################
+
+### Criar Usuário
+POST {{baseUrl}}/usuarios/
+Content-Type: application/json
+
+{
+    "nome": "Aaron Goldberg",
+    "cpf": "123.456.789-00",
+    "email": "aaron@email.com",
+    "municipio": 1
+}
+
+###
+
+### Listar Usuários
+GET {{baseUrl}}/usuarios/
+
+###
+
+### Buscar Usuário
+GET {{baseUrl}}/usuarios/1/
+
+###
+
+### Filtrar Usuário por Nome
+GET {{baseUrl}}/usuarios/?search=Aaron
+
+###
+
+### Ordenar Usuários por Nome
+GET {{baseUrl}}/usuarios/?ordering=nome
+
+###
+
+### Atualizar Usuário
+PUT {{baseUrl}}/usuarios/1/
+Content-Type: application/json
+
+{
+    "nome": "Aaron Atualizado",
+    "cpf": "123.456.789-00",
+    "email": "novo@email.com",
+    "municipio": 1
+}
+
+###
+
+### Atualização Parcial Usuário
+PATCH {{baseUrl}}/usuarios/1/
+Content-Type: application/json
+
+{
+    "saldo": 250
+}
+
+###
+
+### Recarregar Saldo
+POST {{baseUrl}}/usuarios/1/recarregar/
+Content-Type: application/json
+
+{
+    "valor": 200
+}
+
+###
+
+### Extrato Completo
+GET {{baseUrl}}/usuarios/1/extrato/
+
+###
+
+##################################################
+### TIPOS DE TICKET
+##################################################
+
+### Criar TipoTicket
+POST {{baseUrl}}/tipos-ticket/
+Content-Type: application/json
+
+{
+    "nome": "mensal",
+    "descricao": "Ticket mensal",
+    "valor": 150,
+    "duracao_dias": 30,
+    "janela_integracao_minutos": 60,
+    "ativo": true
+}
+
+###
+
+### Listar Tipos de Ticket
+GET {{baseUrl}}/tipos-ticket/
+
+###
+
+### Buscar Tipo de Ticket
+GET {{baseUrl}}/tipos-ticket/1/
+
+###
+
+##################################################
+### TICKETS
+##################################################
+
+### Comprar Ticket
+POST {{baseUrl}}/tickets/
+Content-Type: application/json
+
+{
+    "usuario": 1,
+    "tipo": 1,
+    "status": "ativo"
+}
+
+###
+
+### Listar Tickets
+GET {{baseUrl}}/tickets/
+
+###
+
+### Buscar Ticket
+GET {{baseUrl}}/tickets/1/
+
+###
+
+### Filtrar Tickets Ativos
+GET {{baseUrl}}/tickets/?status=ativo
+
+###
+
+### Validar Ticket
+POST {{baseUrl}}/tickets/1/validar/
+Content-Type: application/json
+
+{
+    "validador_id": 1,
+    "transporte_id": 1
+}
+
+###
+
+##################################################
+### TRANSPORTES
+##################################################
+
+### Criar Transporte
+POST {{baseUrl}}/transportes/
+Content-Type: application/json
+
+{
+    "identificacao": "BUS-101",
+    "tipo": "onibus",
+    "nome": "Circular Centro",
+    "empresa": 1,
+    "ativo": true
+}
+
+###
+
+### Listar Transportes
+GET {{baseUrl}}/transportes/
+
+###
+
+### Buscar Transporte
+GET {{baseUrl}}/transportes/1/
+
+###
+
+### Filtrar Transportes por Tipo
+GET {{baseUrl}}/transportes/?tipo=onibus
+
+###
+
+### Relatório do Transporte
+GET {{baseUrl}}/transportes/1/relatorio/
+
+###
+
+### Relatório do Transporte por Data
+GET {{baseUrl}}/transportes/1/relatorio/?inicio=2026-05-01&fim=2026-05-31
+
+###
+
+##################################################
+### VALIDADORES
+##################################################
+
+### Criar Validador
+POST {{baseUrl}}/validadores/
+Content-Type: application/json
+
+{
+    "tipo": "cartao",
+    "codigo": "VAL-001",
+    "transporte": 1,
+    "data_instalacao": "2026-05-13",
+    "ativo": true
+}
+
+###
+
+### Listar Validadores
+GET {{baseUrl}}/validadores/
+
+###
+
+### Buscar Validador
+GET {{baseUrl}}/validadores/1/
+
+###
+
+##################################################
+### VALIDAÇÕES
+##################################################
+
+### Listar Validações
+GET {{baseUrl}}/validacoes/
+
+###
+
+### Buscar Validação
+GET {{baseUrl}}/validacoes/1/
+
+###
+
+##################################################
+### RELATÓRIOS GERAIS
+##################################################
+
+### Relatório Geral Município
+GET {{baseUrl}}/municipios/1/relatorio-geral/
+
+###
+
+##################################################
+### DELETE (TESTE FINAL)
+##################################################
+
+### Deletar Ticket
+DELETE {{baseUrl}}/tickets/1/
+
+###
+
+### Deletar Usuário
+DELETE {{baseUrl}}/usuarios/1/
