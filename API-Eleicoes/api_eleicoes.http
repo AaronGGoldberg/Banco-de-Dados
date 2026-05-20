@@ -1,0 +1,73 @@
+### LISTAR ELEITORES
+GET http://127.0.0.1:8000/eleicoes_api/eleitores/
+
+###
+
+### CRIAR ELEITOR
+POST http://127.0.0.1:8000/eleicoes_api/eleitores/
+Content-Type: application/json
+
+{
+    "nome": "Carlos Teste",
+    "email": "carlos@gmail.com",
+    "cpf": "999.999.999-99",
+    "data_nascimento": "2000-01-01",
+    "ativo": true
+}
+
+###
+
+### LISTAR ELEICOES
+GET http://127.0.0.1:8000/eleicoes_api/eleicoes/
+
+###
+
+### ABRIR ELEICAO
+POST http://127.0.0.1:8000/eleicoes_api/eleicoes/1/abrir/
+
+###
+
+### REGISTRAR VOTO
+POST http://127.0.0.1:8000/eleicoes_api/eleicoes/1/votar/
+Content-Type: application/json
+
+{
+    "eleitor_id": 1,
+    "candidato_id": 1
+}
+
+###
+
+### VOTO EM BRANCO
+POST http://127.0.0.1:8000/eleicoes_api/eleicoes/1/votar/
+Content-Type: application/json
+
+{
+    "eleitor_id": 2,
+    "em_branco": true
+}
+
+###
+
+### LISTAR VOTOS
+GET http://127.0.0.1:8000/eleicoes_api/votos/
+
+###
+
+### LISTAR REGISTROS
+GET http://127.0.0.1:8000/eleicoes_api/registros-votacao/
+
+###
+
+### VERIFICAR COMPROVANTE
+GET http://127.0.0.1:8000/eleicoes_api/verificar-comprovante/?token=TOKEN_AQUI
+
+###
+
+### GERAR QR CODE
+GET http://127.0.0.1:8000/eleicoes_api/comprovantes/qr/?token=TOKEN_AQUI
+
+###
+
+### ENCERRAR ELEICAO
+POST http://127.0.0.1:8000/eleicoes_api/eleicoes/1/encerrar/
