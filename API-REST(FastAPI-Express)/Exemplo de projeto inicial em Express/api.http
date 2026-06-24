@@ -1,0 +1,30 @@
+@baseUrl = http://localhost:3000
+
+### GET / — rota raiz
+GET {{baseUrl}}/
+
+### GET /produtos — lista todos os produtos
+GET {{baseUrl}}/produtos/
+
+### GET /produtos/:id — busca produto pelo id
+GET {{baseUrl}}/produtos/1
+
+### GET /produtos/:id — id inexistente (404)
+GET {{baseUrl}}/produtos/999
+
+### POST /produtos — cria novo produto
+POST {{baseUrl}}/produtos
+Content-Type: application/json
+
+{
+  "nome": "Cabo de Rede",
+  "preco": 30.9
+}
+
+### POST /produtos — sem nome/preço (400)
+POST {{baseUrl}}/produtos
+Content-Type: application/json
+
+{
+  "nome": "Produto sem preço"
+}
