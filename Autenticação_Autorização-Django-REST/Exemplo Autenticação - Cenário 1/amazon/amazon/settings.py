@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 
+from django.contrib.auth.views import INTERNAL_RESET_SESSION_TOKEN
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
